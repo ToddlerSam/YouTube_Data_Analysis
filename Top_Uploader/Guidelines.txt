@@ -1,0 +1,4 @@
+1.) This jar will run a job which will extract the videos and with their uploader names and compile them to count the number of videos uploaded by each uploader.
+2.) like 54 videos are uploaded by a particular uploader.
+3.) Top 5 Uploaders can be printed using the following command:-
+     "hadoop fs -cat /path to partfile | sort -n -k2 -r | head -n5"

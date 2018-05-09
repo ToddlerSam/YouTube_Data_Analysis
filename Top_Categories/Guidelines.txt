@@ -1,0 +1,4 @@
+1.) This jar will run a job which will extract the videos and compile them according to their categories.
+2.) like 543 videos uploaded in Entertainment category.
+3.) Top 5 Categories can be printed using the following command:-
+     "hadoop fs -cat /path to partfile | sort -n -k2 -r | head -n5"

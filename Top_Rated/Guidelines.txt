@@ -1,0 +1,4 @@
+1.) This jar will run a job which will extract the videos and compile them according to the rating provided to them by the users.
+2.) like a particular video having 5.4 rating.
+3.) Top 5 Rated videos can be printed using the following command:-
+     "hadoop fs -cat /path to partfile | sort -n -k2 -r | head -n5"

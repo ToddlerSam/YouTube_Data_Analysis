@@ -1,0 +1,2 @@
+1.) This jar will run a job which will count the occurence of words in a particular file.
+

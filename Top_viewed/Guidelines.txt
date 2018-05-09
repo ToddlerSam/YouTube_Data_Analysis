@@ -1,0 +1,4 @@
+1.) This jar will run a job which will extract the videos and their views from the database file.
+2.) like a video having 5Million views.
+3.) Top 5 Viewed Videos can be printed using the following command:-
+     "hadoop fs -cat /path to partfile | sort -n -k2 -r | head -n5"
